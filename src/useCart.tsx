@@ -1,72 +1,72 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
-interface Cart {
-    items: Item[];
+// interface Cart {
+//     items: Item[];
 
-    }
+//     }
 
-class Cart {
+// class Cart {
     
-    constructor(){
-        this.items = [] as Item[];
-    }
+//     constructor(){
+//         this.items = [] as Item[];
+//     }
 
-    addToCart( item : Item){
-        this.items.push(new Item(`${item}`));
-    }
+//     addToCart( item : Item){
+//         this.items.push(new Item(`${item}`));
+//     }
 
-    deleteFromCart(item: Item){
-        this.items = this.items.filter((cartItem) => {
-            cartItem.id != item.id
-        });
-    }
+//     deleteFromCart(item: Item){
+//         this.items = this.items.filter((cartItem) => {
+//             cartItem.id != item.id
+//         });
+//     }
 
-    toString(){        
-        return this.items.forEach((item) => item.toString());
-    }
+//     toString(){        
+//         return this.items.forEach((item) => item.toString());
+//     }
 
-}
+// }
 
-interface Item {
-    id: number;
-    name: string;
-}
+// interface Item {
+//     id: number;
+//     name: string;
+// }
 
-class Item {
-    id = 0;
-    name = "";
+// class Item {
+//     id = 0;
+//     name = "";
     
-    constructor(name: string){
-        this.id = this.generateID();
-        this.name = name;
-    }
+//     constructor(name: string){
+//         this.id = this.generateID();
+//         this.name = name;
+//     }
 
-    private generateID(): number{
-        this.id += 1;
-        return this.id;
-    }
+//     private generateID(): number{
+//         this.id += 1;
+//         return this.id;
+//     }
 
-    toString(){
-        return `ID: ${this.id}, Name: ${this.name}`
-    }
-}
+//     toString(){
+//         return `ID: ${this.id}, Name: ${this.name}`
+//     }
+// }
 
-const useCart = () => {
+// const useCart = () => {
 
-    const [cart, setCart] = useState(new Cart());
+//     const [cart, setCart] = useState(new Cart());
 
-    useEffect(() => {
+//     useEffect(() => {
         
-    })
+//     })
 
-    function addItem(item: string){
-        cart.addToCart(new Item(`${item}`));
-        setCart(cart);
-    }
+//     function addItem(item: string){
+//         cart.addToCart(new Item(`${item}`));
+//         setCart(cart);
+//     }
 
-    return {cart};
-}
+//     return {cart};
+// }
 
-export default useCart;
+// export default useCart;
 
 

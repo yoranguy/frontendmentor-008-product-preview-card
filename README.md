@@ -1,3 +1,105 @@
+# Frontend Mentor - Product preview card component solution
+
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Frontend Mentor - Product preview card component solution](#frontend-mentor---product-preview-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+    - [AI Collaboration](#ai-collaboration)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
+- [React + TypeScript + Vite](#react--typescript--vite)
+  - [React Compiler](#react-compiler)
+  - [Expanding the ESLint configuration](#expanding-the-eslint-configuration)
+
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for interactive elements
+
+### Screenshot
+
+Desktop Screenshot:
+![](images/20260712165632.png)
+
+Mobile Screenshot:
+![](images/20260712165703.png)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Tailwindcss](https://tailwindcss.com/) - Tailwindcss
+- [Styled Components](https://styled-components.com/) - For styles
+
+**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
+### What I learned
+
+First time using tailwindcss
+
+
+### Continued development
+
+1. This is regarding the following statement then true
+
+![](images/20260712173518.png)
+
+  - React 
+    -  props
+      - I had forgotten about having a key for each component
+      - Initially tried to used .forEach() but it returns undefined, using .map() works out to be better for rendering lists.
+
+
+### Useful resources
+
+- [Tailwindcss](https://tailwindcss.com/) - This helped me for styling. Referring to the doc.
+- [Flexbox](https://css-tricks.com/wp-content/uploads/2022/02/css-flexbox-poster.png) - A reminder for when using flexbox.
+
+
+### AI Collaboration
+
+Asked Google about 
+- .map() .filter and .forEach()
+- props
+
+## Author
+
+- Website - [LinkTree](https://linktr.ee/yoranguy)
+- Frontend Mentor - [@yoranguy](https://www.frontendmentor.io/profile/yoranguy)
+- Twitter - [@yoranguy](https://github.com/yoranguy)
+
+## Acknowledgments
+
+NA
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

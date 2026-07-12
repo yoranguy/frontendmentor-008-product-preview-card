@@ -14,8 +14,8 @@ import NavBar from './NavBar';
 function App() {
 
   // Part 1 - Remove comments below to see the ProductPreviewCard Component being populated with data from  /data.data.json
-  
-  // const {product, isLoading, error}: {product: ProductCard[], isLoading: boolean, error: null} = useFetch();
+
+  const {product, isLoading, error}: {product: ProductCard[], isLoading: boolean, error: null} = useFetch();
 
   return (
     <>
@@ -24,14 +24,19 @@ function App() {
       
       {/* Part 2 - Remove comments below to see the ProductPreviewCard Component being populated with data from  /data.data.json */}
   
-      {/* <NavBar />
-      {isLoading && <div>Data is loading...</div>}
-      {error && <div>Error: ${error}</div>}
-      {product.map(element => {
-        console.log(element.productID);
-        return <ProductPreviewCard key={element.productID} {...element} />
-      })}  */}
-
+      if (false){
+        <>
+          <NavBar />
+          {isLoading && <div>Data is loading...</div>}
+          {error && <div>Error: ${error}</div>}
+          {product.map(element => {
+            console.log(element.productID);
+            return <ProductPreviewCard key={element.productID} {...element} />
+          })}  
+        </>
+      } 
+      
+      
     </>
 
 
