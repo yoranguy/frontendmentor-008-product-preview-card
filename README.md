@@ -50,14 +50,24 @@ Mobile Screenshot:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Tailwindcss](https://tailwindcss.com/) - Tailwindcss
-- [Styled Components](https://styled-components.com/) - For styles
+- [Frontend Mentor - Product preview card component solution](#frontend-mentor---product-preview-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+    - [AI Collaboration](#ai-collaboration)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
+- [React + TypeScript + Vite](#react--typescript--vite)
+  - [React Compiler](#react-compiler)
+  - [Expanding the ESLint configuration](#expanding-the-eslint-configuration)
+
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -68,14 +78,14 @@ First time using tailwindcss
 
 ### Continued development
 
-1. This is regarding the following statement then true
+1. This is regarding the following statement when true
 
-![](images/20260712173518.png)
+![](images/20260712211731.png)
 
   - React 
     -  props
-      - I had forgotten about having a key for each component
-      - Initially tried to used .forEach() but it returns undefined, using .map() works out to be better for rendering lists.
+      - I had forgotten about having a key for each component, this was added.
+      - Initially tried to used .forEach() but it returns undefined, using .map() as it works out to be better for rendering lists.
 
 
 ### Useful resources
