@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xs: 375px;
+}
+
+.font-fraunces {
+  font-family: 'Fraunces 9pt';
+}
+
+.font-montserrat {
+  font-family: 'Montserrat';
+}

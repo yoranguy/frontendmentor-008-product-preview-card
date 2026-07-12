@@ -1,0 +1,42 @@
+[
+    {
+        "productID": "1",
+        "imageMobileURL": "/images/image-product-mobile.jpg",
+        "imageDesktopURL": "/images/image-product-desktop.jpg",
+        "productType": "Perfume",
+        "productTitle": "Gabrielle Essence Eau De Parfum",
+        "productDescription": "A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.",
+        "salePrice": 149.99,
+        "MSRP": 169.99
+    },
+    {
+        "productID": "2",
+        "imageMobileURL": "/images/image-product2-mobile.jpg",
+        "imageDesktopURL": "/images/image-product2-desktop.jpg",
+        "productType": "Perfume",
+        "productTitle": "N°5 L'EAU Eau de Toilette Spray",
+        "productDescription": "A warm, woody-floral fragrance featuring a rich bouquet of rose, jasmine, and ylang-ylang, elevated by crisp aldehydes.",
+        "salePrice": 200.00,
+        "MSRP": 382.00
+    },
+    {
+        "productID": "3",
+        "imageMobileURL": "/images/image-product2-mobile.jpg",
+        "imageDesktopURL": "/images/image-product2-desktop.jpg",
+        "productType": "Perfume",
+        "productTitle": "N°5 L'EAU Eau de Toilette Spray",
+        "productDescription": "A warm, woody-floral fragrance featuring a rich bouquet of rose, jasmine, and ylang-ylang, elevated by crisp aldehydes.",
+        "salePrice": 200.00,
+        "MSRP": 382.00
+    },
+    {
+        "productID": "4",
+        "imageMobileURL": "/images/image-product2-mobile.jpg",
+        "imageDesktopURL": "/images/image-product2-desktop.jpg",
+        "productType": "Perfume",
+        "productTitle": "N°5 L'EAU Eau de Toilette Spray",
+        "productDescription": "A warm, woody-floral fragrance featuring a rich bouquet of rose, jasmine, and ylang-ylang, elevated by crisp aldehydes.",
+        "salePrice": 200.00,
+        "MSRP": 382.00
+    }
+]
