@@ -43,8 +43,8 @@ Mobile Screenshot:
 
 ### Links
  
-- Solution URL: [GitHub](https://github.com/yoranguy/mentorfrontend-008-product-preview-card)
-- Live Site URL: [Vercel](https://mentorfrontend-product-preview-card-n1udoczp9.vercel.app/)
+- Solution URL: [GitHub](https://github.com/yoranguy/frontendmentor-007-order-summary-component)
+- Live Site URL: [Vercel](https://frontendmentor-product-preview-card-cyx5ol8zv.vercel.app/)
 
 ## My process
 
